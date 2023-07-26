@@ -1,4 +1,4 @@
-codefunction moveLeft(){
+function moveLeft(){
     left left =
     parseInt(windoiw.getComputedStyle(character).getPropertyValue("Left"));
     left -=100;
