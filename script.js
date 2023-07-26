@@ -27,3 +27,8 @@ block.addEventListener('animationiteration',()
     block.style.left = left = "px";
     counter++;
 });
+setInterval(function(){
+    var characterLeft = 
+    parseInt(window.getComputedStyle(character)
+    .getPropertyValue("left"));
+    
