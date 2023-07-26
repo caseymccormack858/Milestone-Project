@@ -1,6 +1,6 @@
 function moveLeft(){
     let left =
-    parseInt(windoiw.getComputedStyle(character).getPropertyValue("Left"));
+    parseInt(window.getComputedStyle(character).getPropertyValue("Left"));
     left -=100;
     if(left>=0){
     character.style.left = left + "px";
