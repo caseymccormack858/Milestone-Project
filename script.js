@@ -42,7 +42,7 @@ setInterval(function(){
     if(characterLeft == blockLeft && 
        blockTop<500&&
        blockTop>300){
-        alert("Game Over. Score:"+counter);
+        alert("Game Over. Score: "+counter);
         block.style.animation = "none";
        }
 },1);
