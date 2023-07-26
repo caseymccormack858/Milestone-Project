@@ -34,4 +34,6 @@ setInterval(function(){
     var blockleft = 
     parseInt(window.getComputedStyle(block)
     .getPropertyValue("left"));
-  
+    var blockTop = 
+    parseInt(window.getComputedStyle(block)
+    .getPropertyValue("top"));
