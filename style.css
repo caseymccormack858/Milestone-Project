@@ -23,7 +23,7 @@ left: 100px;
     background-color: black;
     position: relative;
     top: 500px;
-    animation: slide 1s infinite linear;
+    animation: alternate 1s infinite linear;
 }
 @keyframes slide{
     0%{top:-100px};
