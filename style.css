@@ -25,7 +25,7 @@ left: 100px;
     top: 500px;
     animation: alternate-reverse;
 }
-@keyframes slide{
+@keyframes alternate-reverse{
     0%{top:-100px};
     1000%{top:-500px};
 }
