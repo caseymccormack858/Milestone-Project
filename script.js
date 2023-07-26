@@ -31,4 +31,7 @@ setInterval(function(){
     var characterLeft = 
     parseInt(window.getComputedStyle(character)
     .getPropertyValue("left"));
-    
+    var blockleft = 
+    parseInt(window.getComputedStyle(block)
+    .getPropertyValue("left"));
+  
