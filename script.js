@@ -14,3 +14,7 @@ function moveRight(){
     character.style.left = left + "px";
     }
 }
+document.addEventListener("keydown", event => {
+    if(event.key==="ArrowLeft"){moveLeft();}
+    if(event.key==="ArrowRight"){moveRight();}
+    });
