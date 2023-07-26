@@ -46,4 +46,4 @@ setInterval(function(){
         block.style.animation = "none";
        }
 },1);
-document.getElelemntById("rights").addEventListener("touchstart", moveLeft);
+document.getElelemntById("right").addEventListener("touchstart", moveLeft);
