@@ -42,3 +42,12 @@ left: 100px;
     background-color: white;
     z-index: index 100000px;;
 } 
+#left, #right{
+    width: 50%;
+    position: absolute;
+    height: 500px;
+}
+#right{
+    left: 50%;
+
+}
