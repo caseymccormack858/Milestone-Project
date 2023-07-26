@@ -17,18 +17,23 @@ position: relative;
 top: 300px;
 left: 100px;
 }
-#block{
+#block {
     width: 100px;
     height: 100px;
     background-color: black;
     position: relative;
-    top: 500px;
-    animation: slide 1s infinite linear;
+    animation: slide 2s infinite linear;
 }
-@keyframes slide{
-    0%{top:-100px};
-    1000%{top:-500px};
+
+@keyframes slide {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: 500px;
+    }
 }
+
 #white{
     width: 300px;
     height: 110px;
