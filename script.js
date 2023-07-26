@@ -37,3 +37,7 @@ setInterval(function(){
     var blockTop = 
     parseInt(window.getComputedStyle(block)
     .getPropertyValue("top"));
+    if(characterLeft == blockLeft && 
+        blockTop<500&&
+        blockTop>300){
+         
